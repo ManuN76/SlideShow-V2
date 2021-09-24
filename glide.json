@@ -1,0 +1,26 @@
+{
+  "kind": "column",
+  "name": "SlideShow",
+  "description": "SlideShow V2",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "img",
+      "displayName": "Image List (url separate by ',')",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "displayName": "Time (second)",
+      "type": "number"
+    },
+    {
+      "name": "fit",
+      "displayName": "Fit : cover, fill, contain, scale-down, none",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
